@@ -1,11 +1,11 @@
 {
-    "name": "Bit:bot Bil følger linjen:)",
+    "name": "Bit:bot Bil følger linjen:)  Svart EL-tape",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "BitBot": "github:4tronix/bitbot#1.5.2"
+        "BitBot": "github:4tronix/BitBot#1.5.2"
     },
     "files": [
         "main.blocks",
@@ -15,6 +15,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
